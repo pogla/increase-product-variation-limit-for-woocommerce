@@ -18,12 +18,12 @@ class IncreaseProductVariationLimitAdmin {
 		$settings[] = [
 			'title' => __( 'Variation AJAX limit', 'increase-product-variation-limit-for-woocommerce' ),
 			'type'  => 'title',
-			'desc'  => __( 'When your variable product has more than 30 variations, WooCommerce starts to use ajax to load your selected variation.', 'increase-product-variation-limit-for-woocommerce' ),
+			'desc'  => __( 'When your variable product has more than 30 variations, WooCommerce starts to use ajax to load your selected variation. Here you can modify this limit.', 'increase-product-variation-limit-for-woocommerce' ),
 			'id'    => IPVL_PREFIX . 'custom_variation_limit_title',
 		];
 
 		$settings[] = [
-			'title'             => __( 'Number of decimals', 'increase-product-variation-limit-for-woocommerce' ),
+			'title'             => __( 'Variation limit', 'increase-product-variation-limit-for-woocommerce' ),
 			'desc'              => __( 'Set variation limit.', 'increase-product-variation-limit-for-woocommerce' ),
 			'id'                => IPVL_PREFIX . 'custom_variation_limit',
 			'css'               => 'width:50px;',
