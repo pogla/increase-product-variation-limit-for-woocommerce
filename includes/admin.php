@@ -3,6 +3,11 @@
 class IncreaseProductVariationLimitAdmin {
 
 	public function __construct () {
+
+		if ( ! class_exists( 'WooCommerce' ) ) {
+			return;
+		}
+
 		add_filter( 'woocommerce_general_settings', [ $this, 'add_setting' ] );
 		add_filter( 'woocommerce_ajax_variation_threshold', [ $this, 'ajax_variation_threshold' ] );
 	}
