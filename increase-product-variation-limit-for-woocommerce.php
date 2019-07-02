@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Increase Product Variation Limit For WooCommerce
- * Plugin URI:      https://maticpogladic.com
+ * Plugin URI:      https://maticpogladic.com/increase-product-variation-limit-for-woocommerce
  * Description:     Adds settings to increase the product variation limit in WooComerce.
  * Author:          Matic Pogladič
  * Author URI:      https://maticpogladic.com
